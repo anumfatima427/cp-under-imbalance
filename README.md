@@ -22,7 +22,7 @@ pip install -r requirements.txt
 | **DFUC2021** (Diabetic Foot Ulcers) | 4 | 5,955 | 5,734 | Ischaemia (3.9%) |
 | **DDR** (Diabetic Retinopathy) | 5 | 10,017 | 2,505 | Severe (1.9%) |
 
-Test set distribution DDR, DFUC2021, and ISIC2019
+Test set distribution DDR, DFUC2021, and ISIC2019:
 
 <img width="1484" height="434" alt="dataset_distribution" src="https://github.com/user-attachments/assets/77383311-e4db-4520-8941-5a28192403c1" />
 
