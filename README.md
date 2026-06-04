@@ -6,6 +6,10 @@ The conformal prediction post-hoc analysis code is taken from this paper: [Class
 First, create a virtual environment and install the necessary packages by running
 
  ```bash
+conda create --name env
+conda activate env
 pip install -r requirements.txt
 ```
- 
+
+## Data Description
+
