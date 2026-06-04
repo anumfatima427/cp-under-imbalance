@@ -82,11 +82,7 @@ the extracted softmax probabilities for each model are stored [here](https://dri
 ### 5. Run Conformal Prediction Experiments
 
 ```bash
-python calibration/run_experiments.py \
-    --softmax_dir results/ddr/ca/softmax \
-    --output_dir results/ddr/ca/conformal \
-    --seeds 0 1 2 3 4 \
-    --n_avg 50 100 150 
+python run_conformal.py [data] [n_avg] -score_functions softmax APS RAPS -methods standard classwise exact_coverage_classwise exact_coverage_cluster cluster_proportional cluster_doubledip cluster_random -seeds 0 1 2 3 4 --calibration_sampling random --save_folder ./results/paper/varying_n
 ```
 
 ### 6. Generate Figures and Tables
