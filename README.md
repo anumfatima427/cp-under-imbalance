@@ -18,3 +18,29 @@ pip install -r requirements.txt
 | **ISIC2019** (Skin) | 8 | 25,331 | 6,191 | Dermatofibroma (0.94%)|
 | **DFUC2021** (Diabetic Foot Ulcers) | 4 | 5,955 | 5,734 | Ischaemia (3.9%) |
 | **DDR** (Diabetic Retinopathy) | 5 | 10,017 | 2,505 | Severe (1.9%) |
+
+### 1. Prepare Data
+
+ ```bash
+python 1-Data_Prep.py --data_dir /path/to/dfuc2021 --output_dir ./dataset_split --symlink
+```
+
+Organises each dataset as:
+```
+data/
+├── isic2019/
+│   ├── train/
+│   │   ├── train.csv       # Columns: image, label, label_name
+│   │   └── images/
+│   └── test/
+│       ├── test.csv
+│       └── images/
+└── dfuc2021/
+    ├── train/
+    │   ├── train.csv
+    │   └── images/
+    └── test/
+        ├── test.csv
+        └── images/
+```
+
