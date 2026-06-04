@@ -85,7 +85,7 @@ python calibration/run_experiments.py \
 python calibration/notebooks/create_latex_table.py 
 python calibration/notebooks/generate_plots.py 
 ```
-> **Note:** We evaluate Standard (STD), Conditional (CC), and Cluster-Wise (CW) calibration across varying calibration sizes ($n_{avg}$). Our Conformal-Aware (CA) loss uniquely enables the CW method to achieve CC-level safety (CovGap) while maintaining highly efficient prediction sets (AvgSize). Best results per block are in **bold**.
+> **Note:** We evaluate Standard (STD), Conditional (CC), and Cluster-Wise (CW) calibration across varying calibration sizes ($n_{avg}$). Best results per block are in **bold** and lower is better.
 
 | Dataset | Method | Loss | CovGap↓ (n=50) | AvgSize↓ (n=50) | CovGap↓ (n=100) | AvgSize↓ (n=100) | CovGap↓ (n=150) | AvgSize↓ (n=150) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
