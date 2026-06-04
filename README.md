@@ -1,5 +1,8 @@
 This is the code release accompanying the paper 'Conformal Prediction Under Class Imbalance for Medical Image Classification'
 
+<img width="1920" height="1080" alt="methodology" src="https://github.com/user-attachments/assets/b54fe349-591f-49a9-853a-aac94cdfc7b2" />
+
+
 The conformal prediction post-hoc analysis code is taken from this paper: [Class-Conditional Conformal Prediction with Many Classes](https://dl.acm.org/doi/10.5555/3666122.3668939)
 
 ## Setup:
