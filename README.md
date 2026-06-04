@@ -40,3 +40,36 @@ data/
 │       └── images/
 ```
 
+### 3. Train Models
+
+```bash
+# Cross-Entropy baseline
+python 2a-Train-CE.py --data_dir ./dataset_split --output ./model_output/baseline_ce --epochs 50 --batch_size 32
+
+# Focal Loss baseline
+python 2b-Train-Focal.py --data_dir ./dataset_split --output ./model_output/focal_loss --gamma 2.0
+
+# Conformal-Aware Loss (ours)
+python 2c-Train-CA.py \
+    --train_csv ./train.csv \
+    --test_csv ./test.csv \
+    --train_dir ./images/train \
+    --test_dir ./images/test \
+    --output ./model_output/conformal
+```
+
+### 4. Extract Softmax Probabilities
+
+```bash
+python 3-Generate_Prob.py \
+    --test_csv ./test.csv \
+    --test_dir ./images/test \
+    --model_path ./model_output/baseline_ce/best_model.pth \
+    --output_npz ./[dataset]-cp-aware.npz \
+    --temperature 1.5
+
+```
+
+
+
+
