@@ -63,6 +63,8 @@ python 2c-Train-CA.py \
     --output ./model_output/conformal
 ```
 
+trained models for each dataset for three loss functions (cross-entropy, focal, conformal-aware) are [here](https://drive.google.com/drive/folders/1Sqg81e4ty9-yqtlFHyJ3BELyKRxtg0jn)
+
 ### 4. Extract Softmax Probabilities
 
 ```bash
@@ -74,6 +76,9 @@ python 3-Generate_Prob.py \
     --temperature 1.5
 
 ```
+
+the extracted softmax probabilities for each model are stored [here](https://drive.google.com/drive/folders/1bNkDmN09pM3oIYWlVWHCr6Ba8lzdXVoP)
+
 ### 5. Run Conformal Prediction Experiments
 
 ```bash
