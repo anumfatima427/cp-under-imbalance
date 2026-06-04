@@ -69,7 +69,22 @@ python 3-Generate_Prob.py \
     --temperature 1.5
 
 ```
+### 5. Run Conformal Prediction Experiments
 
+```bash
+python calibration/run_experiments.py \
+    --softmax_dir results/ddr/ca/softmax \
+    --output_dir results/ddr/ca/conformal \
+    --seeds 0 1 2 3 4 \
+    --n_avg 50 100 150 
+```
+
+### 6. Generate Figures and Tables
+
+```bash
+python calibration/notebooks/create_latex_table.py 
+python calibration/notebooks/generate_plots.py 
+```
 
 
 
