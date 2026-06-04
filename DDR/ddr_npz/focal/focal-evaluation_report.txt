@@ -1,0 +1,47 @@
+======================================================================
+  EVALUATION REPORT — Full Test Set
+======================================================================
+  Model: ./model_output/baseline-focal/best_model.pth
+  Total samples: 2505
+
+  Metric                                Value
+  --------------------------------------------
+  accuracy                             0.7928
+  balanced_accuracy                    0.6499
+  top2_accuracy                        0.9389
+  cohen_kappa_quadratic                0.8423
+  macro_precision                      0.6343
+  macro_recall                         0.6499
+  macro_f1                             0.6370
+  weighted_precision                   0.8131
+  weighted_recall                      0.7928
+  weighted_f1                          0.8002
+  mean_confidence                      0.7895
+  std_confidence                       0.1638
+  median_confidence                    0.8335
+
+  Classification Report (per-class):
+  ------------------------------------------------------------
+                 precision    recall  f1-score   support
+  
+          No DR     0.8766    0.9130    0.8944      1253
+           Mild     0.2000    0.3254    0.2477       126
+       Moderate     0.8268    0.7087    0.7632       896
+         Severe     0.4386    0.5319    0.4808        47
+  Proliferative     0.8294    0.7705    0.7989       183
+  
+       accuracy                         0.7928      2505
+      macro avg     0.6343    0.6499    0.6370      2505
+   weighted avg     0.8131    0.7928    0.8002      2505
+  
+
+  Confusion Matrix:
+  ------------------------------------------------------------
+                       No DR        Mild    Moderate      SevereProliferative
+           No DR        1144          57          52           0           0
+            Mild          51          41          31           1           2
+        Moderate         108         105         635          25          23
+          Severe           0           0          18          25           4
+   Proliferative           2           2          32           6         141
+
+======================================================================

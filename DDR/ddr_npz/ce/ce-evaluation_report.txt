@@ -1,0 +1,47 @@
+======================================================================
+  EVALUATION REPORT — Full Test Set
+======================================================================
+  Model: ./model_output/baseline-ce/resnet50-ce-best_model.pth
+  Total samples: 2505
+
+  Metric                                Value
+  --------------------------------------------
+  accuracy                             0.8156
+  balanced_accuracy                    0.6222
+  top2_accuracy                        0.9405
+  cohen_kappa_quadratic                0.8432
+  macro_precision                      0.6700
+  macro_recall                         0.6222
+  macro_f1                             0.6399
+  weighted_precision                   0.8150
+  weighted_recall                      0.8156
+  weighted_f1                          0.8144
+  mean_confidence                      0.8874
+  std_confidence                       0.1555
+  median_confidence                    0.9687
+
+  Classification Report (per-class):
+  ------------------------------------------------------------
+                 precision    recall  f1-score   support
+  
+          No DR     0.8863    0.9210    0.9033      1253
+           Mild     0.2015    0.2143    0.2077       126
+       Moderate     0.8145    0.7790    0.7963       896
+         Severe     0.6552    0.4043    0.5000        47
+  Proliferative     0.7923    0.7923    0.7923       183
+  
+       accuracy                         0.8156      2505
+      macro avg     0.6700    0.6222    0.6399      2505
+   weighted avg     0.8150    0.8156    0.8144      2505
+  
+
+  Confusion Matrix:
+  ------------------------------------------------------------
+                       No DR        Mild    Moderate      SevereProliferative
+           No DR        1154          41          56           0           2
+            Mild          47          27          49           0           3
+        Moderate          99          60         698           7          32
+          Severe           0           1          26          19           1
+   Proliferative           2           5          28           3         145
+
+======================================================================
