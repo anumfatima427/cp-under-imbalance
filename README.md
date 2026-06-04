@@ -38,12 +38,5 @@ data/
 │   └── test/
 │       ├── test.csv
 │       └── images/
-└── dfuc2021/
-    ├── train/
-    │   ├── train.csv
-    │   └── images/
-    └── test/
-        ├── test.csv
-        └── images/
 ```
 
