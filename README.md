@@ -122,5 +122,12 @@ python calibration/notebooks/generate_plots.py
 
 <img width="1026" height="528" alt="post_hoc_all_datasets" src="https://github.com/user-attachments/assets/ea519078-bd25-417d-85f0-368dbbfed55e" />
 
-
+References
+@inproceedings{angelopoulos2021uncertainty,
+  title={Uncertainty Sets for Image Classifiers using Conformal Prediction},
+  author={Angelopoulos, Anastasios Nikolas and Bates, Stephen and Malik, Jitendra and Jordan, Michael I},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2021},
+  url={https://openreview.net/forum?id=eNdiU_DbM9}
+}
 
