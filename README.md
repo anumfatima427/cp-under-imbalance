@@ -85,6 +85,9 @@ python calibration/run_experiments.py \
 python calibration/notebooks/create_latex_table.py 
 python calibration/notebooks/generate_plots.py 
 ```
+<img width="1791" height="601" alt="post-hoc_calib_results" src="https://github.com/user-attachments/assets/3224e550-e4ed-4e6d-a737-6a5cbbd7ca88" />
+
+<img width="1026" height="528" alt="post_hoc_all_datasets" src="https://github.com/user-attachments/assets/ea519078-bd25-417d-85f0-368dbbfed55e" />
 
 
 
