@@ -122,12 +122,16 @@ python calibration/notebooks/generate_plots.py
 
 <img width="1026" height="528" alt="post_hoc_all_datasets" src="https://github.com/user-attachments/assets/ea519078-bd25-417d-85f0-368dbbfed55e" />
 
-References
-@inproceedings{angelopoulos2021uncertainty,
-  title={Uncertainty Sets for Image Classifiers using Conformal Prediction},
-  author={Angelopoulos, Anastasios Nikolas and Bates, Stephen and Malik, Jitendra and Jordan, Michael I},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2021},
-  url={https://openreview.net/forum?id=eNdiU_DbM9}
-}
+## References
+[1] [Uncertainty Sets for Image Classifiers using Conformal Prediction](https://arxiv.org/abs/2009.14193)
+[2] [Conformal prediction: A gentle introduction. Foundations and Trends in Machine Learning ](https://dl.acm.org/doi/10.1561/2200000101)
+[3] [Class-conditional conformai prediction with many classes](https://dl.acm.org/doi/10.5555/3666122.3668939)
+[4] [Analysis Towards Classification of Infection and Ischaemia of Diabetic Foot Ulcers](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9508563)
+[5] [Diagnostic assessment of deep learning algorithms for diabetic retinopathy screening](https://www.sciencedirect.com/science/article/pii/S0020025519305377)
+[6] [BCN20000: Dermoscopic Lesions in the Wild](https://www.nature.com/articles/s41597-024-03387-w)
+
+
+
+
+
 
