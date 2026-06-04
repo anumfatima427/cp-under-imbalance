@@ -13,3 +13,8 @@ pip install -r requirements.txt
 
 ## Data Description
 
+| Dataset | Classes | Train | Test | Minority Class |
+|---------|---------|-------|------|----------------|
+| **ISIC2019** (Skin) | 8 | 25,331 | 6,191 | Dermatofibroma (0.94%)|
+| **DFUC2021** (Diabetic Foot Ulcers) | 4 | 5,955 | 5,734 | Ischaemia (3.9%) |
+| **DDR** (Diabetic Retinopathy) | 5 | 10,017 | 2,505 | Severe (1.9%) |
