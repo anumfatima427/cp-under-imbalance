@@ -1,6 +1,5 @@
-<img width="1240" height="450" alt="Fig3-CovGap_Analysis" src="https://github.com/user-attachments/assets/693385bc-6e12-438b-ae98-a055f3b91a1e" />
-<img width="1240" height="450" alt="Fig3-CovGap_Analysis" src="https://github.com/user-attachments/assets/19c4d1dd-394e-4e64-8ffe-2b6714d6246f" />
-This is the code release accompanying the paper 'Conformal Prediction Under Class Imbalance for Medical Image Classification'
+
+This is the code release accompanying the paper 'Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance '
 
 <img width="1920" height="1080" alt="methodology" src="https://github.com/user-attachments/assets/b54fe349-591f-49a9-853a-aac94cdfc7b2" />
 
