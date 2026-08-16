@@ -1,3 +1,5 @@
+<img width="1240" height="450" alt="Fig3-CovGap_Analysis" src="https://github.com/user-attachments/assets/693385bc-6e12-438b-ae98-a055f3b91a1e" />
+<img width="1240" height="450" alt="Fig3-CovGap_Analysis" src="https://github.com/user-attachments/assets/19c4d1dd-394e-4e64-8ffe-2b6714d6246f" />
 This is the code release accompanying the paper 'Conformal Prediction Under Class Imbalance for Medical Image Classification'
 
 <img width="1920" height="1080" alt="methodology" src="https://github.com/user-attachments/assets/b54fe349-591f-49a9-853a-aac94cdfc7b2" />
@@ -124,9 +126,11 @@ python calibration/notebooks/generate_plots.py
 | | **CW** | CE | 16.4 (2.0) | **1.6 (0.1)** | 14.0 (1.6) | 1.7 (0.1) | 11.9 (2.1) | **1.7 (0.1)** |
 | | | Focal | 11.0 (1.8) | 1.8 (0.2) | 10.6 (1.4) | 1.9 (0.1) | 9.1 (0.9) | 1.8 (0.0) |
 | | | CA (Ours) | **9.2 (1.7)** | **1.6 (0.1)** | **7.6 (0.5)** | **1.6 (0.1)** | **6.5 (0.7)** | 1.7 (0.2) |
-<img width="1791" height="601" alt="post-hoc_calib_results" src="https://github.com/user-attachments/assets/3224e550-e4ed-4e6d-a737-6a5cbbd7ca88" />
 
-<img width="1026" height="528" alt="post_hoc_all_datasets" src="https://github.com/user-attachments/assets/ea519078-bd25-417d-85f0-368dbbfed55e" />
+<img width="1240" height="450" alt="Fig3-CovGap_Analysis" src="https://github.com/user-attachments/assets/123b0f45-04f5-40ef-96ea-5586f8457d4d" />
+
+<img width="1791" height="614" alt="Fig4-Classwise_Results" src="https://github.com/user-attachments/assets/5d033f70-a5d9-4994-ae25-c1de112dd799" />
+
 
 ## References
 - [Uncertainty Sets for Image Classifiers using Conformal Prediction](https://arxiv.org/abs/2009.14193)
