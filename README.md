@@ -1,6 +1,7 @@
 
 This is the code release accompanying the paper 'Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance '
 
+ ```bash
 @InProceedings{AFatima_DualPenalty_MICCAISAT2026,
         author = { Fatima, Anum AND Yap, Moi Hoon AND Reeves, Neil D. AND Odling-Smee, Michael AND Bond, David C. AND Kendrick, Connah},
         title = { { Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance } },
@@ -11,7 +12,7 @@ This is the code release accompanying the paper 'Dual-Penalty Conformal-Aware Lo
         month = {pending},
         page = {pending}
 }
-
+```
 
 <img width="1920" height="1080" alt="methodology" src="https://github.com/user-attachments/assets/b54fe349-591f-49a9-853a-aac94cdfc7b2" />
 
