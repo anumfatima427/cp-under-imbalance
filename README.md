@@ -1,5 +1,5 @@
 
-This is the code release accompanying the paper 'Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance' published in MICCAI2026 ISIC Workshop 
+This is the code release accompanying the paper 'Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance' published in MICCAI2026 ISIC Workshop.
 
  ```bash
 @InProceedings{AFatima_DualPenalty_MICCAISAT2026,
