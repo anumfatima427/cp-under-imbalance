@@ -1,6 +1,18 @@
 
 This is the code release accompanying the paper 'Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance '
 
+@InProceedings{AFatima_DualPenalty_MICCAISAT2026,
+        author = { Fatima, Anum AND Yap, Moi Hoon AND Reeves, Neil D. AND Odling-Smee, Michael AND Bond, David C. AND Kendrick, Connah},
+        title = { { Dual-Penalty Conformal-Aware Loss for Reliable Skin Lesion Classification Under Class Imbalance } },
+        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2026 Workshops and Challenges},
+        year = {2026},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 17271},
+        month = {pending},
+        page = {pending}
+}
+
+
 <img width="1920" height="1080" alt="methodology" src="https://github.com/user-attachments/assets/b54fe349-591f-49a9-853a-aac94cdfc7b2" />
 
 
